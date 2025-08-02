@@ -21,13 +21,15 @@ Comprehensive Admin Dashboard:
 Secure web-based interface for administrators to monitor user activity, review matches, and manage room assignments.
 
 🧰 Technical Stack
-Layer	Technology
-Frontend	HTML, CSS, JavaScript (Vanilla)
-Voice AI	Omnidim.io
-Backend	Django (Python)
-AI API	Google Gemini API
-Database	MongoDB (via Atlas)
-Deployment	Vercel / Railway / Render (Optional cloud providers)
+
+| Layer       | Technology                                |
+|-------------|--------------------------------------------|
+| Frontend    | HTML, CSS, JavaScript (Vanilla)            |
+| Voice AI    | [Omnidim.io](https://omnidim.io)           |
+| Backend     | Django (Python)                            |
+| AI API      | Google Gemini API                          |
+| Database    | MongoDB (via Atlas)                        |
+| Deployment  | Vercel / Railway / Render (Optional)       |
 📂 Project Structure
 text
 femnest/
