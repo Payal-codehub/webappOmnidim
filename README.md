@@ -30,34 +30,28 @@ Secure web-based interface for administrators to monitor user activity, review m
 | AI API      | Google Gemini API                          |
 | Database    | MongoDB (via Atlas)                        |
 | Deployment  | Vercel / Railway / Render (Optional)       |
+
+
+
 📂 Project Structure
-text
-femnest/
-├── frontend/             # Core HTML, CSS, and JavaScript client
-│   ├── index.html
-│   ├── styles/
-│   └── scripts/
-│
-├── backend/              # Django application
-│   ├── femnest/
-│   ├── manage.py
-│   └── requirements.txt
-│
-├── voice/                # Voice survey integration (Omnidim.io setup)
-│   └── ...
-│
-├── ai/                   # Gemini & matching logic modules
-│   └── ...
-│
-├── database/             # MongoDB models and connection configs
-│   └── ...
-│
-├── dashboard/            # Admin panel source code
-│   └── ...
-│
-├── .env                  # Environment variables (never commit secrets)
-├── README.md
+
+FemNest/
+├── backend/ # Django backend
+│ ├── core/ # App with views and routes
+│ ├── femnest/ # Project settings
+│ ├── .env # Gemini API key
+│ ├── db.py # MongoDB connection
+│ └── matching.py # Match score logic
+├── frontend/ # Frontend pages
+│ ├── index.html # Home page
+│ ├── survey.html # Voice assistant integration
+│ ├── result.html # Match result display
+│ ├── admin.html # Admin dashboard
+│ └── css/, js/ # Styles and logic
+└── README.md # You're reading it now
 └── ...
+
+
 🚀 Getting Started
 Clone the repository:
 
